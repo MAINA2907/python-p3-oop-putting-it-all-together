@@ -7,7 +7,6 @@ class Book:
        
     @property
     def page_count(self):
-        """The page_count property"""
         return self._page_count
     
     @page_count.setter
